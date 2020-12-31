@@ -25,11 +25,11 @@ const anime = JSON.parse(fs.readFileSync('./src/anime.json'))
 const samih = JSON.parse(fs.readFileSync('./src/simi.json'))
 const vcard = 'BEGIN:VCARD\n' // ANAK ANJING MAU NGAPAIN?
             + 'VERSION:3.0\n' // NGAPAIN LAGI KALO GA MAU NUMPANG NAMA DOANG XIXIXIXI
-            + 'FN:SAGIRI CHAN\n' // MENDING LU TOBAT SU!
-            + 'ORG:Creator StyleCogan;\n' // KASIH CREDITS GUA SU!!!
+            + 'FN:StyleCogan\n' // MENDING LU TOBAT SU!
+            + 'ORG:Creator SAGIRI CHAN;\n' // KASIH CREDITS GUA SU!!!
             + 'TEL;type=CELL;type=VOICE;waid=6289509938750:+62 895-0993-8750\n' // JANGAN KEK BABI SU
             + 'END:VCARD'
-prefix = '$'
+prefix = '.'
 blocked = []
 
 function kyun(seconds){
@@ -697,7 +697,7 @@ async function starts() {
 					break
                 case 'donasi':
 				case 'donate':
-					client.sendMessage(from, 'Mau donasi ya om?✨\n\n اتَّقوا النَّارَ ولو بشقِّ تمرةٍ ، فمن لم يجِدْ فبكلمةٍ طيِّبةٍ\n_“jauhilah api neraka, walau hanya dengan bersedekah sebiji kurma (sedikit). Jika kamu tidak punya, maka bisa dengan kalimah thayyibah” [HR. Bukhari 6539, Muslim 1016]_\n\n*Pulsa Indosat :* _0896-5547-8810_\n*Dana :* _0896-5547-8810_\n*Saweria :* _https://saweria.co/agung1\n*Gopay :* _belum tersedia_', text, { quoted: mek })
+					client.sendMessage(from, 'Mau donasi ya om?✨\n\n اتَّقوا النَّارَ ولو بشقِّ تمرةٍ ، فمن لم يجِدْ فبكلمةٍ طيِّبةٍ\n_“jauhilah api neraka, walau hanya dengan bersedekah sebiji kurma (sedikit). Jika kamu tidak punya, maka bisa dengan kalimah thayyibah” [HR. Bukhari 6539, Muslim 1016]_\n\n*Pulsa Indosat :* _0895-0993-8750_\n*Dana :* _0895-0993-8750_\n*Saweria :* _https://saweria.co/cogan1\n*Gopay :* _belum tersedia_', text, { quoted: mek })
 					break
                 case 'tes':
                    client.sendMessage(from, 'ok', text, {quoted: mek})
@@ -1469,7 +1469,7 @@ async function starts() {
 						reply('Suksess broadcast')
 					} else {
 						for (let _ of anu) {
-							sendMess(_.jid, `[ *XPTN Broadcast* ]\n\n${body.slice(4)}`)
+							sendMess(_.jid, `[ *SAGIRI CHAN Broadcast* ]\n\n${body.slice(4)}`)
 						}
 						reply('Suksess broadcast')
 					}

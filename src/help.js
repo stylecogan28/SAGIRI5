@@ -53,6 +53,29 @@ const help = (prefix) => {
 ┣➥ *${prefix}loli*
 ┃Jika Inging mengaktifkan nya ketik
 ┃nsfw1 kalo mau di nonaktifkan nsfw0
+┃
+┣━━━━°❀🔗 ❬ COMMAND Anime ❭ 🔗❀°━━━⊱
+┃
+┣➥ *${prefix}naruto*
+┣➥ *${prefix}boruto*
+┣➥ *${prefix}hinata*
+┣➥ *${prefix}keneki*
+┣➥ *${prefix}toukachan*
+┣➥ *${prefix}rize*
+┣➥ *${prefix}itori*
+┣➥ *${prefix}sasuke*
+┣➥ *${prefix}sakura*
+┣➥ *${prefix}Waiting Lupa owowk*
+┃Jika Inging mengaktifkan nya ketik
+┃openanime 1 kalo mau di nonaktifkan openanime0
+┣━━━━°❀🔗 ❬ COMMAND Mainan ❭ 🔗❀°━━━⊱
+┃
+┣➥ *${prefix}apakah*
+┣➥ *${prefix}bisakah*
+┣➥ *${prefix}rate*
+┣➥ *${prefix}watak*
+┣➥ *${prefix}kapankah*
+┃
 ┣━━━°❀ ❬ COMMAND DOWNLOADER ❭ ❀°━━⊱
 ┃
 ┣➥ *ytsearch* [search yt]
@@ -96,7 +119,7 @@ const help = (prefix) => {
 ┣➥ *${prefix}url2img*
 ┃
 ┣━━━━━━━━━━━━━━━━━━━━
-┃ ${prefix}*Follow IG* ~_Cogan_112~
+┃ ${prefix}*Follow IG* ~_cogan112~
 ┗━━━━━━━━━━━━━━━━━━━━`
 }
 exports.help = help
